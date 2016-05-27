@@ -12,8 +12,8 @@
 
     var links = document.links;
     for(var i=0; i < links.length; i++) {
-      if (links[i].target == '_blank') {
-        links[i].setAttribute('rel', 'noreferrer');
+      if (links[i].target == '_blank' && links[i].rel.indexOf('noreferrer') == -1) {
+        links[i].rel += ' noreferrer';
       }
     }
 
