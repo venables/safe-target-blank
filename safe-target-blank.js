@@ -5,10 +5,17 @@
 (function() {
   'use strict';
 
-  var links = document.links;
-  for(var i=0; i < links.length; i++) {
-    if (links[i].target == '_blank') {
-      links[i].setAttribute('rel', 'noreferrer');
+  var documentHasLoaded = setInterval(function () {
+
+    if (document.readyState !== "complete") return;
+    clearInterval(documentHasLoaded);
+
+    var links = document.links;
+    for(var i=0; i < links.length; i++) {
+      if (links[i].target == '_blank') {
+        links[i].setAttribute('rel', 'noreferrer');
+      }
     }
-  }
+
+  }, 30);
 })();
