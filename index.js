@@ -1,8 +1,8 @@
-/*
+/**
  * safe-target-blank v1.1.0
  * Copyright 2014-2017 Matt Venables https://mattvenables.com
+ * @license MIT
  */
-
 (function () {
   'use strict'
 
