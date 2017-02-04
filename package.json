@@ -1,0 +1,9 @@
+{
+  "name": "safe-target",
+  "version": "1.0.0",
+  "description": "Using `target=\"_blank\"` can be insecure. This helps.",
+  "main": "index.js",
+  "repository": "git@github.com:venables/safe-target-blank.git",
+  "author": "Matt Venables <mattvenables@gmail.com>",
+  "license": "MIT"
+}
