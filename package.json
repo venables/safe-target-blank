@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "git@github.com:venables/safe-target-blank.git",
   "author": "Matt Venables <mattvenables@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "uglify-js": "^2.7.5"
+  },
+  "scripts": {
+    "compile": "./node_modules/.bin/uglifyjs index.js --compress --mangle --comments --output dist/safe-target-blank.min.js"
+  }
 }
