@@ -19,7 +19,7 @@ Imagine this scenario:
 
 I just gave some hackers my login information.
 
-If you want to see this in action, check out [test/index.html](http://code.mattvenables.com/safe-target-blank/test/index.html) versus [test/index-safe.html](http://code.mattvenables.com/safe-target-blank/test/index-safe.html).
+If you want to see this in action, check out [docs/index.html](https://mattvenables.com/safe-target-blank).
 
 ## Wow. So how do I fix this?
 
