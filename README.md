@@ -51,22 +51,22 @@ You can install safe-target-blank in several ways:
 
 1. Include the hosted JS directly on your page
 
-  ```
+    ```html
     <script src="//code.mattvenables.com/safe-target-blank/safe-target-blank.min.js"></script>
-  ```
+    ```
 
 2. Install via npm (or yarn), and require it (for use with Webpack or Browserify)
 
-  ```
-   npm install safe-target
-   ```
+     ```bash
+     npm install safe-target
+     ```
 
-   ```
-   yarn add safe-target
-   ```
+     ```bash
+     yarn add safe-target
+     ```
 
 3. Install via Bower
 
-   ```
-   bower install safe-target
-   ```
+     ```bash
+     bower install safe-target
+     ```
