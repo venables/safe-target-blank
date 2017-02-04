@@ -43,3 +43,30 @@ So, just add this script to the bottom of your page, like so:
   <script src="//code.mattvenables.com/safe-target-blank/safe-target-blank.min.js"></script>
 </body>
 </html>
+```
+
+## Installation:
+
+You can install safe-target-blank in several ways:
+
+1. Include the hosted JS directly on your page
+
+  ```
+    <script src="//code.mattvenables.com/safe-target-blank/safe-target-blank.min.js"></script>
+  ```
+
+2. Install via npm (or yarn), and require it (for use with Webpack or Browserify)
+
+  ```
+   npm install safe-target
+   ```
+
+   ```
+   yarn add safe-target
+   ```
+
+3. Install via Bower
+
+   ```
+   bower install safe-target
+   ```
