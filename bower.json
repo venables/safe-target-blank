@@ -1,0 +1,17 @@
+{
+  "name": "safe-target",
+  "description": "Using `target=\"_blank\"` can be insecure. This helps.",
+  "main": "index.js",
+  "authors": [
+    "Matt Venables <mattvenables@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/venables/safe-target-blank",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
